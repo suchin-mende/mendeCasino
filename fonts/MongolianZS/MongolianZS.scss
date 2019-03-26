@@ -1,0 +1,29 @@
+$mongolian-zs-font-path: $font-path !default;
+
+@font-face {
+  font-family: "Mongolian ZS";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Mongolian ZS"), local("MongolianZS"), url("#{$mongolian-zs-font-path}/MongolianZS.woff") format("woff"), url("#{$mongolian-zs-font-path}/MongolianZS.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mongolian ZS";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Mongolian ZS"), local("MongolianZS"), url("#{$mongolian-zs-font-path}/MongolianZS.woff") format("woff"), url("#{$mongolian-zs-font-path}/MongolianZS.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mongolian ZS";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Mongolian ZS Bold"), local("MongolianZS"), url("#{$mongolian-zs-font-path}/MongolianZS.woff") format("woff"), url("#{$mongolian-zs-font-path}/MongolianZS.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Mongolian ZS";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Mongolian ZS Bold"), local("MongolianZS"), url("#{$mongolian-zs-font-path}/MongolianZS.woff") format("woff"), url("#{$mongolian-zs-font-path}/MongolianZS.ttf") format("truetype");
+}

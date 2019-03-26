@@ -1,0 +1,13 @@
+$('.num').on 'click', ->
+  $this = $(this)
+  $('#roulette')
+    .removeAttr 'class'
+    .addClass "number-#{$this.val()}"
+
+$('#rollRnd').on 'click', ->
+  num = 1 + Math.round(Math.random()*23)
+  $('#roulette')
+    .removeAttr 'class'
+    .addClass "number-#{num}"
+
+
